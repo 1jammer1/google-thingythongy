@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26228ebb_9274a574",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-07-24T16:30:41Z",
+      "side": 1,
+      "message": "@pivaf@google.com @ipalant@google.com\n\nnetsim-dev has been broken from go/ab/12132522 and we are pinning to a commit SHA prior to the CL that caused the build break.\n\nNot sure why the presubmit will still use the latest commit of external/boringssl, but this CL should resolve our build break.",
+      "revId": "98091c7788182959161c952d66c54821d9edc12b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
